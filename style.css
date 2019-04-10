@@ -1,11 +1,40 @@
+html {
+    height: auto;
+}
 #logo {
-    height: 400px;
-    width: 800px;
+    max-height: 200px;
+    max-width: 400px;
     background: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 P {
     color: #a6586e;
 }
 #body {
     background: whitesmoke;
+    height: auto
 }
+#facebook {
+    font-size: 40px;
+}
+#myCarousel {
+ float: left;
+}
+.card-header{
+    margin-top: 0px !important;
+}
+#contact {
+    float: left;
+    min-width: 25%;
+}
+.carousel-inner > .item > img {
+    max-width:640px !important;
+    max-height:360px !important;
+    /* margin: auto !important; */
+  }
+
+/* .container {
+    height: 100%;
+} */
